@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-color: #dddddd99;
+}
+html {
+  font-family: var(--font-laila-normal);
+}
+body {
+  color: rgb(var(--foreground-rgb));
+  background-color: var(--background-color);
+}
+.theme {
+  transition: 1s all ease;
+}
+
+.light {
+  background-color: white;
+  color: #111;
+}
+
+.dark {
+  background-color: #111;
+  color: #bbb;
+}
+button:focus {
+  outline: none;
+}

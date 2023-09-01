@@ -1,0 +1,33 @@
+.home {
+  .search_bar {
+    border-radius: 999px;
+    background-color: white;
+    box-shadow: 0px 0px 18px rgb(181, 181, 181);
+  }
+}
+.light {
+  .home {
+    .search_bar {
+      background-color: white;
+    }
+    .tool_section {
+      background-color: #f3f3f3;
+    }
+  }
+}
+.dark {
+  .search_bar,
+  .tool_section {
+    background-color: black;
+  }
+}
+.submenu {
+  .submenu {
+    left: 100%;
+  }
+  .submenu-arrow {
+    transform: rotate(-90deg);
+    position: absolute;
+    right: 0;
+  }
+}

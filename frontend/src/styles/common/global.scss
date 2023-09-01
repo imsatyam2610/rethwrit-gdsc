@@ -1,0 +1,58 @@
+.dark {
+  .dl-icon {
+    background-color: #2b2b2b;
+  }
+  .darklight {
+    background-color: rgb(26 26 26);
+  }
+  .bg-dlmode {
+    background-color: #111;
+    color: #bbb;
+  }
+}
+.light {
+  .dl-inset {
+    .dl-icon {
+      background-color: #898989;
+    }
+  }
+  .dl-icon {
+    background-color: #e5e5e5;
+  }
+  .darklight {
+    background-color: rgb(229 231 235 / 1);
+  }
+  .bg-dlmode {
+    background-color: white;
+    color: #111;
+  }
+}
+.suggestion::-webkit-scrollbar-thumb {
+  border-radius: 100px;
+  background: #717171;
+  box-shadow: inset 2px 2px 5px 0 rgba(#fff, 0.5);
+}
+.suggestion::-webkit-scrollbar {
+  width: 6px;
+}
+.suggestion::-webkit-scrollbar-track {
+  background-color: #d9d9e5;
+  border-radius: 100px;
+}
+.loadingContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: #f2f2f2;
+}
+.loadingBar {
+  height: 100%;
+  background-image: linear-gradient(to top right, blue, red);
+  transition: width 0.5s ease-in-out;
+}
+:is(h2, h3, h4, h5, h6) {
+  margin: 4px 0 5px;
+  font-weight: 700;
+}

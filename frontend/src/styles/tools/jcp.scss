@@ -1,0 +1,11 @@
+table {
+  border-collapse: separate;
+  width: 100%;
+  border-top: 0.2em solid #2185d0;
+  margin-top: 8px;
+  td,
+  th {
+    border: 1px dashed #aaa;
+    text-align: center;
+  }
+}
